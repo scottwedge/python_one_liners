@@ -2,7 +2,10 @@
 
 x,y = True, False
 print("x,y = True, False")
-print("x is : ",x, "Not x is: ", not x)
+print("x is : ",x, "not x is: ", not x)
 
-print("x AND y:", x and y)
-print("x OR y:", x or y)
+print("x and y:", x and y)
+print("x or y:", x or y)
+
+print("not (x and y):", not ( x and y ))
+print("not (x or y):", not ( x or y ))
