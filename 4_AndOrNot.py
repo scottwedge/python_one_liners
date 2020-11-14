@@ -9,3 +9,8 @@ print("x or y:", x or y)
 
 print("not (x and y):", not ( x and y ))
 print("not (x or y):", not ( x or y ))
+
+print("Precedence is not, then and, then or")
+print("so   not x and y or x:", not x and y or x)
+
+
