@@ -5,3 +5,6 @@ def f():
 
 
 print(f() == None)
+
+print(f() is None)
+print(f() is not None)
