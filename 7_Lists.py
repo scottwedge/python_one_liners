@@ -3,4 +3,5 @@
 l = []
 l.append(1)
 l.append(2)
-print(l)
+print(l," has a length of", len(l))
+
