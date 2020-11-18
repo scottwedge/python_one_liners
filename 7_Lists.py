@@ -19,3 +19,6 @@ print(l1 + l2)
 
 l3 = l1 + l2
 print(l3)
+
+print(l3[2:4])
+
