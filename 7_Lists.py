@@ -34,3 +34,8 @@ print(l3)
 
 # Use index
 print(l3.index(2))
+
+# Sort list
+print("Sorted ...")
+l3.sort()
+print(l3)
