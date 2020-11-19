@@ -31,3 +31,6 @@ print(l3)
 # Remove value by position
 l3.pop(1)
 print(l3)
+
+# Use index
+print(l3.index(2))
