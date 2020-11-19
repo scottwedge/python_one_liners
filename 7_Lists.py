@@ -20,5 +20,10 @@ print(l1 + l2)
 l3 = l1 + l2
 print(l3)
 
-print(l3[2:4])
+# Reverse list
+l3.reverse()
+print(l3)
 
+# Remove item
+l3.remove(1)
+print(l3)
