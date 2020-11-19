@@ -44,3 +44,9 @@ print(l3)
 print("Pop (last item) ...")
 print(l3.pop())
 print(l3)
+
+# Append (to stack)
+print("Append to stack/list ...")
+l3.append(42)
+print(l3)
+
