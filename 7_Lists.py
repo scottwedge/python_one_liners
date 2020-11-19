@@ -24,6 +24,10 @@ print(l3)
 l3.reverse()
 print(l3)
 
-# Remove item
+# Remove item by value
 l3.remove(1)
+print(l3)
+
+# Remove value by position
+l3.pop(1)
 print(l3)
