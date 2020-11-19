@@ -39,3 +39,8 @@ print(l3.index(2))
 print("Sorted ...")
 l3.sort()
 print(l3)
+
+# Pop
+print("Pop (last item) ...")
+print(l3.pop())
+print(l3)
