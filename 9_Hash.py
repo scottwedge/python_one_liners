@@ -10,7 +10,7 @@ print(hash(hero))
 print(hash(friend))
 print(hash(heroine))
 
-# Can we create a set of strings?
+# Can we create a set of strings?  YES
 set1 = {hero, friend, heroine}
 print(set1)
 
@@ -20,6 +20,13 @@ l1 = [1,2]
 l2 = [3,4]
 l3 = [6,8]
 
-# Try to make a set of lists:
-set2 = {l1, l2, l3}
-print(set2)
+# Try to make a set of lists:  FAILS
+#set2 = {l1, l2, l3}
+#print(set2)
+
+# Create set of sets?  FAIL
+set3 = { "hello",  "there"}
+print(set3)
+
+s4 = {set1, set3}
+print(s4)
