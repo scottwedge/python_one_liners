@@ -11,7 +11,8 @@ print(hash(friend))
 print(hash(heroine))
 
 # Can we create a set of strings?  YES
-set1 = {hero, friend, heroine}
+set1 = {friend, heroine, hero}
+# Print order change
 print(set1)
 
 
@@ -28,5 +29,5 @@ l3 = [6,8]
 set3 = { "hello",  "there"}
 print(set3)
 
-s4 = {set1, set3}
-print(s4)
+#s4 = {set1, set3}
+#print(s4)
