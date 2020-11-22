@@ -31,3 +31,7 @@ print(set3)
 
 #s4 = {set1, set3}
 #print(s4)
+
+# each element in set must be unique, duplicates are ignored
+set5 = { hero, hero, friend, friend, heroine}
+print(set5)
