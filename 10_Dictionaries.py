@@ -10,3 +10,7 @@ print(calories["apple"])
 
 # logic comparison
 print(calories["apple"] < 52)   # Should be True
+
+# Change value
+calories["apple"] = 99
+print(calories)
