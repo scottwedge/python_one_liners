@@ -8,3 +8,5 @@ print(calories)
 # start using key:value pairs
 print(calories["apple"])
 
+# logic comparison
+print(calories["apple"] < 52)   # Should be True
