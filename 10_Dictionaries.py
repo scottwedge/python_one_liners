@@ -24,3 +24,11 @@ for k,v in calories.items():
 for k,v in calories.items():
     print(k) if v > 70 else print("low")
 
+# Keys
+for k in calories.keys():
+    print(k)
+
+# Values
+for v in calories.values():
+    print(v) if v > 70 else print("not > 70")
+
