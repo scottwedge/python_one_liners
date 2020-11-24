@@ -20,3 +20,7 @@ for k,v in calories.items():
 
 for k,v in calories.items():
     print(v)
+
+for k,v in calories.items():
+    print(k) if v > 70 else print("low")
+
