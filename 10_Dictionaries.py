@@ -32,3 +32,13 @@ for k in calories.keys():
 for v in calories.values():
     print(v) if v > 70 else print("not > 70")
 
+# List of tuples
+customers = [ ("Allan", 1000),
+        ("Steve", 2000),
+        ("Gerry", 2100)]
+
+
+# Top earning customers
+TOP = 2000
+whales = [ x for x,y in customers if y > 2000 ]
+print(whales)
