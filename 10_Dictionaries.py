@@ -40,5 +40,5 @@ customers = [ ("Allan", 1000),
 
 # Top earning customers
 TOP = 2000
-whales = [ x for x,y in customers if y > 2000 ]
+whales = [ x for x,y in customers if y > TOP ]
 print(whales)
