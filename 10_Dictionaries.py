@@ -34,11 +34,12 @@ for v in calories.values():
 
 # List of tuples
 customers = [ ("Allan", 1000),
-        ("Steve", 2000),
-        ("Gerry", 2100)]
+        ("Steve", 2002),
+        ("Gerry", 2100),
+        ("Don", 4000)]
 
 
 # Top earning customers
 TOP = 2000
 whales = [ x for x,y in customers if y > TOP ]
-print(whales)
+print(whales, "earned more than", TOP)
