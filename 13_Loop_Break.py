@@ -4,9 +4,9 @@
 
 n = 1
 while True:
+    n = n + 200
+    if n < 1000:
+        continue
     print("hello", n)
-    if n > 1000:
+    if n > 2000:
         break
-    else:
-        n = n + 100
-    n = n + 1
