@@ -5,6 +5,8 @@
 n = 1
 while True:
     print("hello", n)
-    if n == 2:
+    if n > 1000:
         break
+    else:
+        n = n + 100
     n = n + 1
