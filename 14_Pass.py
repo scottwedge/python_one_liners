@@ -7,11 +7,11 @@ while j < 100:
     while j < 30:
         print(j, "<30")
         j = j + 2
-        continue
+        pass
     while j < 60:
         print("..",j, "< 60")
         j = j + 5
-        pass
+        continue
     while j < 100:
         print(j, "<100")
         j = j + 10
