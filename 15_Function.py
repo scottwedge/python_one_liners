@@ -5,6 +5,9 @@
 def power_of(x, power):
     return x ** power
 
+def square(y):
+    return y ** 2
 
 print(power_of(10,2))
 
+print(square(9))
