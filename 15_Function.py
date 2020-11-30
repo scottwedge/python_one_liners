@@ -8,6 +8,12 @@ def power_of(x, power):
 def square(y):
     return y ** 2
 
+
+def combo (a, b, c):
+     return power_of(a,b)/square(c)
+
 print(power_of(10,2))
 
 print(square(9))
+
+print(combo(8,9,100))
